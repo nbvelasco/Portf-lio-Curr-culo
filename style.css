@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: flex;
+}
+
+#minha-foto {
+    width: 260px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.parte-esquerda {
+    width: 30%;;
+    padding: 50px 80px;
+    background-color: #2d5899;
+    color: white;
+    text-align: center;
+}
+
+.esquerda-content {
+    text-align: left;
+    width: 270px;
+}
+
+.informacoes-pessoais, .habilidade-pessoais, .acesse-meu-github {
+    margin-top: 50px;
+}
+
+#icone-localizacao, #icone-email, #icone-pc, #icone-linkedin, #icone-github {
+    width: 20px;
+    vertical-align: middle;
+    padding: 7px;
+}
+
+.parte-esquerda p {
+    margin: 5px 0;
+}
+
+.habilidade-pessoais p {
+    line-height: 26px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.parte-direita {
+    width: 70%;
+}
+
+.parte-esquerda h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+.parte-esquerda p {
+    font-size: 14px;
+}
+
+.parte-direita {
+    width: 100%;
+}
+
+.direita-content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.meu-nome {
+    color: #2d5899;
+    text-transform: uppercase;
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+
+hr {
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 40px;
+}
+
+.subtitulo {
+    margin-bottom: 80px;
+}
+
+.parte-direita h2 {
+    color: #5093f8;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.parte-direita h3 {
+    margin: 6px 0;
+}
+
+.perfil-pessoal p {
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+
+.experiencia-de-trabalho p {
+    line-height: 16px;
+}
+
+.empresa-trabalhada {
+    line-height: 26px;
+}
+
+.titulo-consultor {
+    color: #a7a7a7;
+    font-weight: lighter;
+}
+
+.experiencia-de-trabalho {
+    margin-bottom: 50px;
+}
+
+.bacharelado {
+    color: #a7a7a7;
+    font-weight: lighter;
+}
+
+.historico-academico {
+    margin-bottom: 50px;
+}
